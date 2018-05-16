@@ -1,2 +1,13 @@
+<style>
 pcontact{color: white}
 iframe{height: 150px; width: 500px}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 40;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: right;
+}
+</style>
