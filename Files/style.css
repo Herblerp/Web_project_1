@@ -1,11 +1,38 @@
-<style>
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 40;
-    width: 100%;
-    background-color: red;
-    color: white;
-    text-align: right;
+
+body {
+    background-image: url("../Foto's/background.jpg");
 }
-</style>
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    height: 150px;
+    width: 99%;
+    text-align: center;
+}
+
+.logo {
+    -webkit-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
+}
+
+.logo:hover {
+    -webkit-filter: brightness(1) invert(0);
+    filter: brightness(1) invert(0);
+}
+
+.logo:visited {
+    -webkit-filter: brightness(1) invert(0);
+    filter: brightness(1) invert(0);
+}
+
+ul {
+    display: block;
+    max-width: 100%;
+}
+li {
+    display:inline-block;
+    margin-top: 50px;
+   
+    
+}
