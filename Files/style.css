@@ -28,7 +28,7 @@ body {
 
 ul {
     display: block;
-    max-width: 100%;
+    max-width: 99%;
 }
 li {
     display:inline-block;
