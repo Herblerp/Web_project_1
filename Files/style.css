@@ -1,11 +1,14 @@
 body {
     background-image: url("../Foto's/background.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
     color: white;
     font-family: sans-serif;
     padding: 0;
     margin: 0;
     background-size: 100%;
 }
+
 
 footer {
     position: fixed;
@@ -43,10 +46,10 @@ pcontact{color: white}
 iframe{height: 150px; width: 500px}
 
 .footer {
-    position: fixed;
+    position: absolute;
     left: 0;
     bottom: 40;
-    width: 100%;
+    width: 99%;
     background-color: red;
     color: white;
     text-align: right;
@@ -149,7 +152,6 @@ nav ul li:hover{
 #BelgianBlackLabel {
     width: 50%;
 }
-
 
 /* Eigenschappen voor kleine schermen */
 @media screen and (max-width: 960px){
