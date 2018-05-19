@@ -1,17 +1,25 @@
 body {
+<<<<<<< HEAD
+    background: url("../Foto's/background.jpg") no-repeat center center fixed;
+    background-size: cover;
+=======
     background-image: url("../Foto's/background.jpg");
     background-size: 100%;
     background-attachment: fixed;
+>>>>>>> 6bf65e8ea6d7c7648a26185ede2ea5a62bc279d3
     color: white;
-    font-family: sans-serif;
+    font-family: 'Tajawal', sans-serif;
     padding: 0;
     margin: 0;
-    background-size: 100%;
+    
+}
+
+h1{
+    text-align: center;
 }
 
 
 footer {
-    position: fixed;
     bottom: 50px;
     height: 50px;
     width: 99%;
@@ -55,6 +63,7 @@ iframe{height: 150px; width: 500px}
     text-align: right;
 }
 
+/* Menu*/
 nav ul{
     background-color: #4F433C;
     color: white;
@@ -99,6 +108,9 @@ nav ul li:hover{
     display: none;
 }
 
+<<<<<<< HEAD
+/* Responsive menu */
+=======
 /*Products page*/
 #placeholder {
     height: 100px;
@@ -154,6 +166,7 @@ nav ul li:hover{
 }
 
 /* Eigenschappen voor kleine schermen */
+>>>>>>> 6bf65e8ea6d7c7648a26185ede2ea5a62bc279d3
 @media screen and (max-width: 960px){
     .zichtbaar{
         max-height: 15em;
@@ -177,3 +190,49 @@ nav ul li:hover{
         display: none;
     }
 }
+<<<<<<< HEAD
+
+/*Home page*/
+#bannerImg {
+    width: 800px;
+    display: block;
+    margin: 80px auto 40px auto;
+    position:relative;
+}
+
+.content {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    width: 800px;
+    min-height: xxx;
+    overflow: hidden;
+    margin: 40px auto;
+    border-radius: 6px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    margin: auto;
+    padding: 0px;
+    align-content: center;
+}
+
+.productPicture{
+    display:block;
+    margin:auto;
+    width: 30%;
+}
+
+/* Responsive home page */
+@media screen and (max-width: 960px){
+    .content{
+        width: 100%;
+    }
+    .column{
+        float: none;
+        width: 80%;
+    }
+}
+=======
+>>>>>>> 6bf65e8ea6d7c7648a26185ede2ea5a62bc279d3
