@@ -1,14 +1,22 @@
 body {
     background-image: url("../Foto's/background.jpg");
     color: white;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
-#footer {
+footer {
     position: fixed;
     bottom: 0;
-    height: 150px;
+    height: 50px;
     width: 99%;
     text-align: center;
+}
+
+footer ul li{
+    display: inline-block;
+    padding: 20px 0px;
 }
 
 .logo {
@@ -26,16 +34,6 @@ body {
     filter: brightness(1) invert(0);
 }
 
-ul {
-    display:block;
-    height: inherit;
-    max-width: 99%;
-}
-li {
-    display:inline-block;
-    margin-top: 50px;
-}
-
 pcontact{color: white}
 
 iframe{height: 150px; width: 500px}
@@ -50,4 +48,70 @@ iframe{height: 150px; width: 500px}
     text-align: right;
 }
 
->>>>>>> 3d911eb5bfb1f70090aa84a11e6e4e947e879180
+nav ul{
+    background-color: #4F433C;
+    color: white;
+    padding: 0;
+    margin: 70px 0px 0px 0px;
+    text-align: center;
+    -webkit-transition: max-height 0.4s;
+    transition: max-height 0.4s;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 20px 70px;
+    
+}
+
+nav ul a{
+    text-decoration: none;
+    color: inherit;
+}
+
+nav ul li:hover{
+    background-color: #423832;
+}
+
+#nav-logo{
+    height: 150px;
+    width: 150px;
+    vertical-align: middle;
+    margin: -50px 20px;
+    padding: 0;
+    display: inline;
+    overflow: visible;
+}
+
+.menuKnop{
+    width: 100%;
+    background-color: #4F433C;
+    padding: 20px 70px;
+    text-align: left;
+    cursor: pointer;
+    display: none;
+}
+
+@media screen and (max-width: 960px){
+    .zichtbaar{
+        max-height: 15em;
+    }
+    .menuOpen{
+        background-color: #7a675d;
+    }
+    nav ul{
+        overflow: hidden;
+        max-height: 0px;
+        margin: 0px;
+    }
+    nav ul li{
+        width: 100%;
+        text-align: left;
+    }
+    .menuKnop{
+        display: block;
+    }
+    #nav-logo{
+        display: none;
+    }
+}

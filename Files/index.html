@@ -1,32 +1,46 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
 <body>
-<head>
-  <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<header> 
     
-    
+    <header> 
     </header>
     
+    <!-- Top menu -->
+    <nav>
+        <div class="menuKnop">Menu</div>
+        <ul>
+            <a href=""><li>Home</li></a>
+            <a href=""><li>About</li></a>
+            <a href=""><img id="nav-logo" src = "../Foto's/nav-logo.png"></a>
+            <a href=""><li>Events</li></a>
+            <a href=""><li>Contact</li></a>
+        </ul>
+    </nav>
     
 
     
-<div id="footer">
+<footer>
   
    <ul> 
-    <li>
-       <a class="logo" href="https://www.facebook.com/brouwerijbenoit/" target="_blank"><img src="../Foto's/Facebook.PNG" alt="Facebook logo"height=18px style="margin-bottom: 4px;"/></a>
-    </li>
-    <li>
-       <a class="logo" href="https://twitter.com/BrouwerijBenoit" target="_blank"><img src="../Foto's/Twitter.png" alt="Twitter logo"height=25px /></a>
-    </li>
-    
-    <li>
-      <a class="logo" href="https://www.instagram.com/brouwerijbenoit/?hl=nl" target="_blank"><img src="../Foto's/Instagram.png" alt="Instagram logo"height=25px/></a>
-    </li><br>&copy;Copyright 2018<br>(links naar contact)<br></ul> 
+    <li><a class="logo" href="https://www.facebook.com/brouwerijbenoit/" target="_blank"><img src="../Foto's/Facebook.PNG" alt="Facebook logo"height=18px style="margin-bottom: 4px;"/></a></li>
+    <li><a class="logo" href="https://twitter.com/BrouwerijBenoit" target="_blank"><img src="../Foto's/Twitter.png" alt="Twitter logo"height=25px /></a></li>
+    <li><a class="logo" href="https://www.instagram.com/brouwerijbenoit/?hl=nl" target="_blank"><img src="../Foto's/Instagram.png" alt="Instagram logo"height=25px/></a></li>
+    <li>&copy;Copyright 2018</li>
+    <li>(links naar contact)</li></ul> 
 
-</div>
+</footer>
+    
+    <script>
+        $(".menuKnop").click(function(){
+        $("nav ul").toggleClass("zichtbaar");
+        $(".menuKnop").toggleClass("menuOpen");
+        });
+    </script>
     
 </body>
  
