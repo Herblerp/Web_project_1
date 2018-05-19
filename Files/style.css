@@ -1,20 +1,36 @@
 body {
-    background-image: url("../Foto's/background.jpg");
-    background-size: 100%;
-    background-attachment: fixed;
+    background: url("../Foto's/background.jpg") no-repeat center center fixed;
+    background-size: cover;
     color: white;
+    font-family: 'Tajawal', sans-serif;
+    padding: 0;
+    margin: 0;
+    
 }
 
-#footer {
-    position: relative;
-    height: 150px;
+h1{
+    text-align: center;
+}
+
+
+footer {
+    bottom: 50px;
+    height: 50px;
     width: 99%;
     text-align: center;
+}
+
+footer ul li{
+    display: inline-block;
+    padding: 20px 0px;
+    vertical-align: middle;
 }
 
 .logo {
     -webkit-filter: brightness(0) invert(1);
     filter: brightness(0) invert(1);
+    vertical-align: middle;
+    
 }
 
 .logo:hover {
@@ -25,16 +41,6 @@ body {
 .logo:visited {
     -webkit-filter: brightness(1) invert(0);
     filter: brightness(1) invert(0);
-}
-
-ul {
-    display:block;
-    height: inherit;
-    max-width: 99%;
-}
-li {
-    display:inline-block;
-    margin-top: 50px;
 }
 
 pcontact{color: white}
@@ -51,40 +57,97 @@ iframe{height: 150px; width: 500px}
     text-align: right;
 }
 
-/*Products page*/
-#placeholder {
-    height: 100px;
-    width: 50px;
+/* Menu*/
+nav ul{
+    background-color: #4F433C;
+    color: white;
+    padding: 0;
+    margin: 70px 0px 0px 0px;
+    text-align: center;
+    -webkit-transition: max-height 0.4s;
+    transition: max-height 0.4s;
+    opacity: 0.9;
 }
 
-#banner {
-    height: 400px;
-    width: 96%;
-    background-color: rgba(0, 0, 0, 0.55);
-    margin: 0;
-    padding: 2%;
+nav ul li{
+    display: inline-block;
+    padding: 20px 70px;
 }
 
+nav ul a{
+    text-decoration: none;
+    color: inherit;
+}
+
+nav ul li:hover{
+    background-color: #423832;
+}
+
+#nav-logo{
+    height: 150px;
+    width: 150px;
+    vertical-align: middle;
+    margin: -50px 20px;
+    padding: 0;
+    display: inline;
+    overflow: visible;
+}
+
+.menuKnop{
+    width: 100%;
+    background-color: #4F433C;
+    padding: 20px 70px;
+    text-align: left;
+    cursor: pointer;
+    display: none;
+}
+
+/* Responsive menu */
+@media screen and (max-width: 960px){
+    .zichtbaar{
+        max-height: 15em;
+    }
+    .menuOpen{
+        background-color: #7a675d;
+    }
+    nav ul{
+        overflow: hidden;
+        max-height: 0px;
+        margin: 0px;
+    }
+    nav ul li{
+        width: 100%;
+        text-align: left;
+    }
+    .menuKnop{
+        display: block;
+    }
+    #nav-logo{
+        display: none;
+    }
+}
+
+/*Home page*/
 #bannerImg {
-    height: 100%;
-    border-radius: 6px;
+    width: 800px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 80px auto 40px auto;
+    position:relative;
 }
 
-#content {
-    background-color: rgba(0, 0, 0, 0.55);
-    width: 640px;
-    height: 500px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
+.content {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    width: 800px;
+    min-height: xxx;
+    overflow: hidden;
+    margin: 40px auto;
     border-radius: 6px;
     padding-top: 20px;
 }
 
 .column {
+<<<<<<< HEAD
     width: 259px;
     margin-left: 30px;
     margin-right: 30px;
@@ -101,3 +164,28 @@ iframe{height: 150px; width: 500px}
     display: block;
 }*/
 >>>>>>> 3d911eb5bfb1f70090aa84a11e6e4e947e879180
+=======
+    float: left;
+    width: 50%;
+    margin: auto;
+    padding: 0px;
+    align-content: center;
+}
+
+.productPicture{
+    display:block;
+    margin:auto;
+    width: 30%;
+}
+
+/* Responsive home page */
+@media screen and (max-width: 960px){
+    .content{
+        width: 100%;
+    }
+    .column{
+        float: none;
+        width: 80%;
+    }
+}
+>>>>>>> fe839b89710024483b0b1eb3231da0f20d44e104
