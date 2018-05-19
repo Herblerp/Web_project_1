@@ -1,6 +1,12 @@
 body {
+<<<<<<< HEAD
     background: url("../Foto's/background.jpg") no-repeat center center fixed;
     background-size: cover;
+=======
+    background-image: url("../Foto's/background.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+>>>>>>> 6bf65e8ea6d7c7648a26185ede2ea5a62bc279d3
     color: white;
     font-family: 'Tajawal', sans-serif;
     padding: 0;
@@ -11,6 +17,7 @@ body {
 h1{
     text-align: center;
 }
+
 
 footer {
     bottom: 50px;
@@ -47,10 +54,10 @@ pcontact{color: white}
 iframe{height: 150px; width: 500px}
 
 .footer {
-    position: fixed;
+    position: absolute;
     left: 0;
     bottom: 40;
-    width: 100%;
+    width: 99%;
     background-color: red;
     color: white;
     text-align: right;
@@ -101,7 +108,65 @@ nav ul li:hover{
     display: none;
 }
 
+<<<<<<< HEAD
 /* Responsive menu */
+=======
+/*Products page*/
+#placeholder {
+    height: 100px;
+    width: 50px;
+}
+
+#banner {
+    height: 400px;
+    width: 96%;
+    background-color: rgba(0, 0, 0, 0.55);
+    margin: 0;
+    padding: 2%;
+}
+
+#bannerImg {
+    height: 100%;
+    border-radius: 6px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content {
+    background-color: rgba(0, 0, 0, 0.55);
+    width: 640px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 6px;
+}
+
+.column {
+    width: 260px;
+    margin-left: 29px;
+    margin-right: 29px;
+    height: 350px;
+    /*background-color: pink;*/
+    padding: 0;
+}
+
+.column1 {
+    float: left;
+
+}
+
+.column2 {
+    float: right;
+}
+
+#BelgianBlackLabel {
+    width: 50%;
+}
+
+/* Eigenschappen voor kleine schermen */
+>>>>>>> 6bf65e8ea6d7c7648a26185ede2ea5a62bc279d3
 @media screen and (max-width: 960px){
     .zichtbaar{
         max-height: 15em;
@@ -125,6 +190,7 @@ nav ul li:hover{
         display: none;
     }
 }
+<<<<<<< HEAD
 
 /*Home page*/
 #bannerImg {
@@ -168,3 +234,5 @@ nav ul li:hover{
         width: 80%;
     }
 }
+=======
+>>>>>>> 6bf65e8ea6d7c7648a26185ede2ea5a62bc279d3
