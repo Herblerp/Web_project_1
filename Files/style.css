@@ -4,6 +4,7 @@ body {
     font-family: sans-serif;
     padding: 0;
     margin: 0;
+    background-size: 100%;
 }
 
 footer {
@@ -59,12 +60,12 @@ nav ul{
     text-align: center;
     -webkit-transition: max-height 0.4s;
     transition: max-height 0.4s;
+    opacity: 0.9;
 }
 
 nav ul li{
     display: inline-block;
     padding: 20px 70px;
-    
 }
 
 nav ul a{
@@ -148,6 +149,9 @@ nav ul li:hover{
 #BelgianBlackLabel {
     width: 50%;
 }
+
+
+/* Eigenschappen voor kleine schermen */
 @media screen and (max-width: 960px){
     .zichtbaar{
         max-height: 15em;
