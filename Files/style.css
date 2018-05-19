@@ -140,15 +140,17 @@ nav ul li:hover{
     width: 800px;
     min-height: xxx;
     overflow: hidden;
-    margin: 40px auto;
+    margin: 100px auto;
     border-radius: 6px;
+    display: flex;
+    justify-content: center;
 }
 
 .column {
     float: left;
     width: 50%;
     margin: auto;
-    padding: 0px;
+    padding: auto 0px;
     align-content: center;
 }
 
@@ -167,4 +169,10 @@ nav ul li:hover{
         float: none;
         width: 80%;
     }
+}
+
+/*Contact page*/
+.map{
+    width: 80%;
+    height: 500px;
 }

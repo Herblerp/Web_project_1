@@ -1,16 +1,62 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" "text/css" href="web1.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
+        <link rel="stylesheet" type="text/css" href="../Files/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Tajawal" rel="stylesheet">
     </head>
-    <body>
-    <article>
-    <div class="pcontact">
-    <p> Brouwerij Benoit <br/> Adres: Avondzonweg 2, 8500 Kortrijk <br/> Telefoon: 0471321175</p>
+<body>
+    <header> 
+    </header>
+    
+    <!-- Top menu -->
+    <nav>
+        <div class="menuKnop">Menu</div>
+        <ul>
+            <a href="../Files/index.html"><li>Home</li></a>
+            <a href=""><li>About</li></a>
+            <a href=""><img id="nav-logo" src = "../Foto's/nav-logo.png"></a>
+            <a href=""><li>Events</li></a>
+            <a href="../contact/contact.html"><li>Contact</li></a>
+        </ul>
+    </nav>
+    
+    <script>
+        $(".menuKnop").click(function(){
+        $("nav ul").toggleClass("zichtbaar");
+        $(".menuKnop").toggleClass("menuOpen");
+        });
+    </script>
+    
+    <!-- Content -->
+    
+    <h1>Contact us</h1>
+    
+    <div class="content">
+        <div class="column">
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d20155.20314036639!2d3.2745617182630076!3d50.842269443123634!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe6b0cfea441a4739!2sBrouwerij+Benoit!5e0!3m2!1snl!2sbe!4v1526386397918" alt="locatie"></iframe>
         </div>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d20155.20314036639!2d3.2745617182630076!3d50.842269443123634!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe6b0cfea441a4739!2sBrouwerij+Benoit!5e0!3m2!1snl!2sbe!4v1526386397918" width="600" height="450" frameborder="0" style="border:0" allowfullscreen alt="locatie"></iframe>
-    </article>
+            <div class="column">
+                Brouwerij Benoit<br/> 
+                Adres: Avondzonweg 2, 8500 Kortrijk<br/> 
+                Telefoon: 0471321175
+            </div>
+        </div>
 
-    </body>
+    <<!-- Footer-->
+    <footer>
+  
+        <ul> 
+            <li><a class="logo" href="https://www.facebook.com/brouwerijbenoit/" target="_blank"><img src="../Foto's/Facebook.PNG" alt="Facebook logo"height=18px style="margin-bottom: 4px;"/></a></li>
+            <li><a class="logo" href="https://twitter.com/BrouwerijBenoit" target="_blank"><img src="../Foto's/Twitter.png" alt="Twitter logo"height=25px /></a></li>
+            <li><a class="logo" href="https://www.instagram.com/brouwerijbenoit/?hl=nl" target="_blank"><img src="../Foto's/Instagram.png" alt="Instagram logo"height=25px/></a></li>
+            <li>&copy;Copyright 2018</li>
+        </ul> 
+
+    </footer>
+</body>
+ 
+
+    
 </html>
-.....................................................................................................................................................................................................................................................................................................
