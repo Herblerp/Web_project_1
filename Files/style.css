@@ -41,7 +41,7 @@ pcontact{color: white}
 
 iframe{height: 150px; width: 500px}
 
-.footer {
+./*footer {
     position: fixed;
     left: 0;
     bottom: 40;
@@ -49,6 +49,6 @@ iframe{height: 150px; width: 500px}
     background-color: red;
     color: white;
     text-align: right;
-}
+}*/
 
 >>>>>>> 3d911eb5bfb1f70090aa84a11e6e4e947e879180
