@@ -1,9 +1,6 @@
 body {
     background: url("../Foto's/background.jpg") no-repeat center center fixed;
     background-size: cover;
-    background-image: url("../Foto's/background.jpg");
-    background-size: 100%;
-    background-attachment: fixed;
     color: white;
     font-family: 'Tajawal', sans-serif;
     padding: 0;
