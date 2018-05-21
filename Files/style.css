@@ -1,5 +1,21 @@
+<<<<<<< HEAD
 body{background-image: url("background.jpg");background-repeat: no-repeat;background-size: 1600px}
 article{margin: 200px auto 0px auto}
 .color{background-color: hsla(45, 0%, 0%,0.3);width: 700px; height: 480px}
 p{color: white;line-height: 1.8;font-size:20px; margin-left: 95px; padding-top: 20px}
 iframe{height: 250px; width: 500px; margin-left: 100px}
+=======
+<style>
+pcontact{color: white}
+iframe{height: 150px; width: 500px}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 40;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: right;
+}
+</style>
+>>>>>>> 6391988e16d37d83ca585432a991774c0930b7b2
