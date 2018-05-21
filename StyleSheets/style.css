@@ -9,6 +9,7 @@ body {
 
 h1{
     text-align: center;
+    margin: 15px;
 }
 
 
@@ -42,10 +43,6 @@ footer ul li{
     filter: brightness(1) invert(0);
 }
 
-pcontact{color: white}
-
-iframe{height: 150px; width: 500px}
-
 .footer {
     position: absolute;
     left: 0;
@@ -60,8 +57,8 @@ iframe{height: 150px; width: 500px}
 nav ul{
     background-color: #4F433C;
     color: white;
-    padding: 0;
-    margin: 70px 0px 0px 0px;
+    padding: 0px;
+    margin: 70px 0px 100px 0px;
     text-align: center;
     -webkit-transition: max-height 0.4s;
     transition: max-height 0.4s;
@@ -95,10 +92,11 @@ nav ul li:hover{
 .menuKnop{
     width: 100%;
     background-color: #4F433C;
-    padding: 20px 70px;
+    padding: 20px 0px 20px 20px;
     text-align: left;
     cursor: pointer;
     display: none;
+    box-sizing: border-box;
 }
 
 /* Responsive menu */
@@ -124,55 +122,4 @@ nav ul li:hover{
     #nav-logo{
         display: none;
     }
-}
-
-/*Home page*/
-#bannerImg {
-    width: 800px;
-    display: block;
-    margin: 80px auto 40px auto;
-    position:relative;
-}
-
-.content {
-    background-color: rgba(0, 0, 0, 0.3);
-    border-radius: 6px;
-    width: 800px;
-    min-height: xxx;
-    overflow: hidden;
-    margin: 100px auto;
-    border-radius: 6px;
-    display: flex;
-    justify-content: center;
-}
-
-.column {
-    float: left;
-    width: 50%;
-    margin: auto;
-    padding: auto 0px;
-    align-content: center;
-}
-
-.productPicture{
-    display:block;
-    margin:auto;
-    width: 30%;
-}
-
-/* Responsive home page */
-@media screen and (max-width: 960px){
-    .content{
-        width: 100%;
-    }
-    .column{
-        float: none;
-        width: 80%;
-    }
-}
-
-/*Contact page*/
-.map{
-    width: 80%;
-    height: 500px;
 }

@@ -1,0 +1,54 @@
+/*Home page*/
+
+#bannerImg {
+    width: 800px;
+    display: block;
+    margin: 80px auto 40px auto;
+    position:relative;
+}
+
+.content {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    width: 800px;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.content h2{
+    width: 90%;
+    text-align: center;
+    padding: 4px;
+    margin: 40px 0px 0px 0px;
+    border-width: 2px 0px 2px 0px;
+    border-style: solid;
+    border-color: #4F433C;
+}
+
+.column {
+    float: left;
+    width: 45%;
+}
+
+.productPicture{
+    display:block;
+    margin: 15px auto;
+    width: 100px;
+}
+
+
+/* Responsive home page */
+@media screen and (max-width: 960px){
+    .content{
+        width: 90%;
+    }
+    .column{
+        float: none;
+        width: 80%;
+    }
+}

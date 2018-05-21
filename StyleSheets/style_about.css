@@ -1,0 +1,57 @@
+h1{
+    width:100%;
+    height:10%;
+    text-align: center;
+    color:white;
+}
+
+
+.one{
+    width:70%;
+    height:50%;
+    padding:20px;
+    margin:auto;
+    margin-top: 15px;
+    background-color: hsla(45, 0%, 0%,0.3);
+   
+}
+
+.two{
+    width:70%;
+    height:50%;
+    margin:auto;
+    padding:20px;
+    margin-top: 15px;
+    background-color: hsla(45, 0%, 0%,0.3);
+
+}
+
+.three{
+    width:70%;
+    height:80%;
+    padding:20px;
+    margin:auto;
+    margin-top: 15px;
+    background-color: hsla(45, 0%, 0%,0.3);
+    
+}
+
+.image {
+    margin:auto;
+    display:block;
+}
+
+
+
+h2{
+    color:white;
+    text-align: center;
+    
+}
+
+p{
+    color:white;
+}
+p~.three{
+    text-align:right;
+}

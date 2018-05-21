@@ -1,0 +1,65 @@
+/*Contact page*/
+
+.content {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    width: 800px;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+.map{
+    width: 50%;
+    height: 500px;
+    margin: 0px;
+}
+
+.sidebar{
+    width: 50%;
+    padding: 0px 0px 0px 40px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.content h2{
+    margin: 0;
+    white-space: nowrap;
+}
+.content p{
+    margin: 0;
+    white-space: nowrap;
+}
+
+.content ul{
+    list-style-type: circle;
+    margin: 0;
+}
+
+.content a{
+    text-decoration: none;
+    color: lightskyblue;
+}
+
+.content a:hover{
+    color: aliceblue;
+}
+
+/* Responsive contact page */
+@media screen and (max-width: 960px){
+    .content{
+        flex-wrap: wrap-reverse;
+        width: 90%;
+    }
+    .map{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .sidebar{
+        padding: 0px;
+    }
+}
