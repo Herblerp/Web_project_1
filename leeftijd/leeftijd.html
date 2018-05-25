@@ -3,7 +3,6 @@
     <head>
         <link rel="stylesheet" "text/css" href="leeftijd.css">
     </head>
-    <script src="age.js"></script>
     <body>
         <a class="taal"> EN</a> <a class="taal">NL</a>
         <header>
@@ -15,8 +14,13 @@
         <p>Are you of legal drinking age?</p>
         <a href="contact.html">
             <button class="button1">Ja</button></a>
-        <a>
-            <button class="button2"> Nee </button></a>
+            
+            <button onclick="no()" class="button2"> Nee </button>
+            <script>
+           function no() {
+               alert("You are not allowed to enter this website!");
+           }
+            </script>
         </article>
     </body>
 </html>
