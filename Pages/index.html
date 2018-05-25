@@ -4,6 +4,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
         <link rel="stylesheet" type="text/css" href="../StyleSheets/style.css">
         <link rel="stylesheet" type="text/css" href="../StyleSheets/style_index.css">
+        <script src="../Scripts/sideNav.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Tajawal" rel="stylesheet">
     </head>
@@ -17,7 +18,7 @@
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
-            <a href=""><img id="nav-logo" src = "../Foto's/nav-logo.png"></a>
+            <img id="nav-logo" src = "../Foto's/nav-logo.png">
             <li><a href="">Events</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
@@ -31,50 +32,60 @@
     </script>
     
     <!-- Content-->
+    
+    <div id="sideNav">
+        <ul>
+            <li><a href="#bbl" id="li1">Belgian Black Label</a></li>
+            <li><a href="#ris" id="li2">Russian Imperial Stout</a></li>
+            <li><a href="#bd" id="li3">Blond Double</a></li>
+            <li><a href="#st" id="li4">Smokey Triple</a></li>
+        </ul>
+    </div>
+    
     <div id="banner">
-      <img id="bannerImg" src="../Foto's/Banner.png">
+        <img id="bannerImg" src="../Foto's/Banner.png">
     </div>
     
     <h1>Our products</h1>
     
     <div class="content">
-        <h2>Belgian black label</h2>
+        <h2 id="bbl">Belgian black label</h2>
         <div class="column">
-          <img src="../Foto's/Belgian_black_label.png" class="productPicture">
+          <img src="../Foto's/belgianBlackLabel.png" class="productPicture">
         </div>
         <div class="column">
                         
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices magna eget eros posuere, eget pharetra velit pulvinar. Nulla ac sapien mi. Maecenas non libero consequat, bibendum nunc nec, hendrerit orci. Suspendisse eleifend, dolor ac volutpat ultrices, urna risus consectetur urna, nec ullamcorper leo sapien at neque. Nunc eu lorem sodales, viverra ligula eget, sollicitudin leo. Maecenas sed nisl facilisis ipsum tempor dapibus. </p>
+            <p>Deze Whiskey infused donkere tripel is gerijpt op eik. De Whiskey smaak is subtiel aanwezig en komt tot uiting aan het eind van het smaakpalet met een fijne toets. De eikrijping geeft een vollere body aan deze volwassen donkere tripel. </p>
             
         </div>
         
-          <h2>Bier 2</h2>
+          <h2 id="ris">Russian Imperial Stout</h2>
         <div class="column">
-          <img src="../Foto's/Belgian_black_label.png" class="productPicture">
+            <img src="../Foto's/russianImperialStout.png" class="productPicture">
         </div>
         <div class="column">
                         
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices magna eget eros posuere, eget pharetra velit pulvinar. Nulla ac sapien mi. Maecenas non libero consequat, bibendum nunc nec, hendrerit orci. Suspendisse eleifend, dolor ac volutpat ultrices, urna risus consectetur urna, nec ullamcorper leo sapien at neque. Nunc eu lorem sodales, viverra ligula eget, sollicitudin leo. Maecenas sed nisl facilisis ipsum tempor dapibus. </p>
+            <p>Voluit Russian Imperial Stout, impressie van de brouwer. Een geheel eigen interpretatie van wat een Russian Impeial Stout moet zijn volgens de brouwer. Volmondig boordevol smaak die start op het tipje van de tong en blijft hangen op de achterkant van de tong en in de neus. Romige schuimkraag met de typische stoutkleur. Een genieter van het de puurste soort.</p>
             
         </div>
         
-          <h2>Bier 3</h2>
+          <h2 id="bd">Blond Double</h2>
         <div class="column">
-          <img src="../Foto's/Belgian_black_label.png" class="productPicture">
+            <img src="../Foto's/blondDouble.png" class="productPicture">
         </div>
         <div class="column">
                         
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices magna eget eros posuere, eget pharetra velit pulvinar. Nulla ac sapien mi. Maecenas non libero consequat, bibendum nunc nec, hendrerit orci. Suspendisse eleifend, dolor ac volutpat ultrices, urna risus consectetur urna, nec ullamcorper leo sapien at neque. Nunc eu lorem sodales, viverra ligula eget, sollicitudin leo. Maecenas sed nisl facilisis ipsum tempor dapibus. </p>
+            <p>Volmoutig bier met een blend van zorgvuldig geselecteerde mouten om een balansrijk bier te bekomen. De smaakhop verheft het bier tot een echte golden experience. Vlot drinkbare smaakbom.</p>
             
         </div>
         
-          <h2>Bier 4</h2>
+          <h2 id="st">Smokey Triple</h2>
         <div class="column">
-          <img src="../Foto's/Belgian_black_label.png" class="productPicture">
+          <img src="../Foto's/smokeyTriple.png" class="productPicture">
         </div>
         <div class="column">
                         
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices magna eget eros posuere, eget pharetra velit pulvinar. Nulla ac sapien mi. Maecenas non libero consequat, bibendum nunc nec, hendrerit orci. Suspendisse eleifend, dolor ac volutpat ultrices, urna risus consectetur urna, nec ullamcorper leo sapien at neque. Nunc eu lorem sodales, viverra ligula eget, sollicitudin leo. Maecenas sed nisl facilisis ipsum tempor dapibus. </p>
+            <p>Volmoutig bier met een blend van zorgvuldig geselecteerde mouten voor optimaal evenwicht van rokerige en volle smaak in het bier. De hoppe ondersteund de volheid van de smaak tot in de neus. </p>
             
         </div>
     </div>

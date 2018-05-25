@@ -11,20 +11,21 @@
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 6px;
     width: 800px;
-    padding: 20px;
+    padding: 20px 0px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    align-items: center;
     justify-content: center;
     box-sizing: border-box;
 }
 
 .content h2{
-    width: 90%;
+    width: 100%;
     text-align: center;
     padding: 4px;
-    margin: 40px 0px 0px 0px;
+    margin: 20px 0px;
     border-width: 2px 0px 2px 0px;
     border-style: solid;
     border-color: #4F433C;
@@ -33,12 +34,38 @@
 .column {
     float: left;
     width: 45%;
+    align-content: center;
+    text-align: center;
 }
 
 .productPicture{
     display:block;
     margin: 15px auto;
     width: 100px;
+}
+
+#sideNav {
+    border-right: 1px solid rgba(160, 160, 160, 0.9);
+    width: 220px;
+    text-align: right;
+    padding-right: 15px;
+    line-height: 28px;
+    font-size: 1.2em;
+    position: absolute;
+    top: 125%;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+#sideNav ul {
+    list-style-type: none;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+#sideNav a {
+    color: rgba(160, 160, 160, 0.9);
+    text-decoration: none;
 }
 
 
@@ -52,3 +79,8 @@
         width: 80%;
     }
 }
+
+@media screen and (max-width: 1350px){
+    #sideNav{
+        display: none;
+    }
